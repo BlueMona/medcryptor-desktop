@@ -1,0 +1,22 @@
+{
+  "name": "medcryptor-desktop",
+  "version": "1.0.0",
+  "description": "This repository consists of **overrides** -- files that will overwrite equivalent files in the peerio-destkop project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeerioTechnologies/medcryptor-desktop.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/PeerioTechnologies/medcryptor-desktop/issues"
+  },
+  "homepage": "https://github.com/PeerioTechnologies/medcryptor-desktop#readme",
+  "dependencies": {
+    "@peerio/desktop-release-builder": "^4.2.1"
+  }
+}

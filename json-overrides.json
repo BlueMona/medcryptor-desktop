@@ -1,0 +1,68 @@
+{
+
+    "package.json": {
+        "name": "medcryptor",
+        "description": "medcryptor",
+        "repository": {
+            "type": "git",
+            "url": "git+https://github.com/PeerioTechnologies/medcryptor-desktop.git"
+        },
+        "author": "",
+        "build": {
+            "appId": "com.medcryptor.desktop",
+            "productName": "medcryptor",
+            "win": {
+              "publisherName": ""
+            }
+        }
+    },
+
+    "app/package.json": {
+        "name": "medcryptor",
+        "productName": "medcryptor",
+        "description": "medcryptor",
+        "repository": {
+            "type": "git",
+            "url": "git+https://github.com/PeerioTechnologies/medcryptor-desktop.git"
+        },
+        "author": "",
+        "updater": {
+            "manifests": [
+                "github:PeerioTechnologies/medcryptor-desktop"
+            ]
+        },
+        "peerio": {
+            "appId": "com.medcryptor.desktop",
+            "whiteLabelBuild": true,
+            "keychainService": "medcryptor",
+            "socketServerUrl": "",
+            "ghostFrontendUrl": "",
+            "disablePayments": true,
+            "translator": {
+                "stringReplacements": [
+                    {
+                        "original": "Peerio",
+                        "replacement": "Medcryptor"
+                    }
+                ],
+                "urlMap": {
+                    "contactFingerprint": "",
+                    "mpDetail": "",
+                    "tfaDetail": "",
+                    "msgSignature": "",
+                    "socialShareUrl": "",
+                    "socialShareImage": "",
+                    "upgrade": "",
+                    "helpCenter": "",
+                    "contactSupport": "",
+                    "mailSupport": "",
+                    "iosApp": "",
+                    "androidApp": "",
+                    "googleAuthA": "",
+                    "googleAuthI": "",
+                    "authy": ""
+                }
+            }
+        }
+    }
+}
