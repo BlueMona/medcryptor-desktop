@@ -1,5 +1,4 @@
 {
-
     "package.json": {
         "name": "medcryptor",
         "description": "medcryptor",
@@ -12,11 +11,10 @@
             "appId": "com.medcryptor.desktop",
             "productName": "medcryptor",
             "win": {
-              "publisherName": ""
+                "publisherName": ""
             }
         }
     },
-
     "app/package.json": {
         "name": "medcryptor",
         "productName": "medcryptor",
@@ -33,11 +31,14 @@
         },
         "peerio": {
             "appId": "com.medcryptor.desktop",
-            "whiteLabelBuild": true,
             "keychainService": "medcryptor",
             "socketServerUrl": "",
             "ghostFrontendUrl": "",
             "disablePayments": true,
+            "whiteLabelBuild": {
+                "active": true,
+                "isMedcryptor": true
+            },
             "translator": {
                 "stringReplacements": [
                     {
