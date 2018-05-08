@@ -1,13 +1,20 @@
-// Brand colour variables
-$color-brand-primary: rgb(100, 157, 223);
-$color-brand-secondary: rgb(174, 83, 213);
-// $color-accent:;
+// Main colours
+$color-ui-1: #FF6600;
+$color-ui-2: #FF8C00;
 
-// Background gradients are used throughout Peerio Messenger.
-// If you don't wish do use gradients then leave $color-brand-primary as the value for $color-brand-secondary.
-$color-brand-gradient: linear-gradient(to right, $color-brand-primary, $color-brand-secondary);
-$color-brand-gradient-bottom: $color-brand-gradient;
+$color-brand-1: $color-ui-1;
+$color-brand-2: #FFB300;
+$color-brand-3: $color-ui-2;
 
-// Background patterns
-// $background-pattern: './static/img/bg-pattern.png';
-$background-pattern: ''; // no pattern
+$color-accent-1: #F5AB3F;
+$color-accent-2: #FF6666;
+
+// Semantic colour variables
+$color-confirmation: $color-brand-3;
+$color-affirmative: $color-brand-1;
+$color-warning: $color-accent-1;
+$color-error: $color-accent-2;
+
+// Main font stack
+@import './static/fonts/OpenSans/opensans.css';
+$font-stack: 'Open Sans', sans-serif;
