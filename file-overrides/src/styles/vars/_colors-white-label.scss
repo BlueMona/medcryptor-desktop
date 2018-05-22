@@ -6,19 +6,18 @@ $peerio-purple: $color-brand-2;
 $background-selected: rgba($peerio-blue, .15);
 $background-overlay: $black-06;
 $background-hover-default: $black-06;
+$hover-bg: rgba($color-brand-2, .15);
+$background-list: $black-03;
+$badge-bg-color: $color-confirmation;
 
 //// FONT COLORS
 // Text
 $text-light-inactive: $black-54;
+$text-badge-color: $black;
+$text-header: $black;
+$text-unread-color: $white;
+$text-header: $black;
 
 //// DIVIDERS
 $divider-dark: $black-06;
 $divider-accent: $black-54;
-
-// WHITELABEL
-$text-header: $black;
-$background-list: $black-03;
-$badgeColor: $black;
-$badgeBgColor: $color-confirmation;
-$unreadColor: $white;
-$hoverBg: rgba($color-brand-2, .15)
