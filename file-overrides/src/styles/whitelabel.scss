@@ -18,3 +18,7 @@ $color-error: $color-accent-2;
 // Main font stack
 @import './static/fonts/OpenSans/opensans.css';
 $font-stack: 'Open Sans', sans-serif;
+
+.login .logo {
+    height: 400px;
+}
