@@ -35,9 +35,8 @@
             "socketServerUrl": "",
             "ghostFrontendUrl": "",
             "disablePayments": true,
-            "whiteLabelBuild": {
-                "active": true,
-                "isMedcryptor": true
+            "whiteLabel": {
+                "name": "medcryptor"
             },
             "translator": {
                 "stringReplacements": [
