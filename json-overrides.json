@@ -42,7 +42,7 @@
                 "stringReplacements": [
                     {
                         "original": "Peerio",
-                        "replacement": "Medcryptor"
+                        "replacement": "MedCryptor"
                     }
                 ],
                 "urlMap": {
