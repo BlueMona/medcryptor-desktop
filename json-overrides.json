@@ -31,7 +31,7 @@
         },
         "peerio": {
             "appId": "com.medcryptor.desktop",
-            "keychainService": "medcryptor",
+            "keychainService": "MedCryptor",
             "socketServerUrl": "wss://hocuspocus.peerio.com",
             "ghostFrontendUrl": "",
             "disablePayments": true,
@@ -42,7 +42,7 @@
                 "stringReplacements": [
                     {
                         "original": "Peerio",
-                        "replacement": "Medcryptor"
+                        "replacement": "MedCryptor"
                     }
                 ],
                 "urlMap": {
