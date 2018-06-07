@@ -1,16 +1,23 @@
-// brand colours
+$black-06: rgba(0, 0, 0, .05);
+$black-03: rgba(0, 0, 0, .05);
+
+// REPLACE FOR WHITE LABELS
 $peerio-blue: $color-brand-2;
-$peerio-purple: $color-brand-2;
+$peerio-purple: #FFB300;
 
 //// BACKGROUNDS
-$background-selected: rgba($peerio-blue, .15);
+$background-selected: rgba($color-ui-2, .15);
 $background-overlay: $black-06;
 $background-hover-default: $black-06;
-$hover-bg: rgba($color-brand-2, .15);
+$hover-bg: rgba($color-ui-2, .15);
 $background-list: $black-03;
 $badge-bg-color: $color-confirmation;
 $background-highlighted: $peerio-purple;
 $background-disabled: $black-12;
+$start-screen-bg: $color-brand-3;
+$snackbar-background: $black;
+$look-at-me: $black;
+$file-bottom-filler: $white;
 
 //// FONT COLORS
 // Text
@@ -23,3 +30,4 @@ $text-header: $black;
 //// DIVIDERS
 $divider-dark: $black-06;
 $divider-accent: $black-54;
+$color-affirmative: $color-brand-3;
