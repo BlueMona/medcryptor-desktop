@@ -32,7 +32,7 @@
         "peerio": {
             "appId": "com.medcryptor.desktop",
             "keychainService": "MedCryptor",
-            "socketServerUrl": "wss://hocuspocus.peerio.com",
+            "socketServerUrl": "wss://icebear.peerio.com",
             "ghostFrontendUrl": "",
             "disablePayments": true,
             "whiteLabel": {
