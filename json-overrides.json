@@ -9,10 +9,7 @@
         "author": "",
         "build": {
             "appId": "com.medcryptor.desktop",
-            "productName": "MedCryptor",
-            "win": {
-                "publisherName": ""
-            }
+            "productName": "MedCryptor"
         }
     },
     "app/package.json": {
@@ -23,7 +20,6 @@
             "type": "git",
             "url": "git+https://github.com/PeerioTechnologies/medcryptor-desktop.git"
         },
-        "author": "",
         "updater": {
             "manifests": [
                 "github:PeerioTechnologies/medcryptor-desktop"
