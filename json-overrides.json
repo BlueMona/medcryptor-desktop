@@ -1,6 +1,7 @@
 {
     "package.json": {
         "name": "medcryptor",
+        "productName": "MedCryptor",
         "description": "medcryptor",
         "repository": {
             "type": "git",
