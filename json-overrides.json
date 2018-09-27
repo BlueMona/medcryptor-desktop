@@ -10,15 +10,6 @@
         "build": {
             "appId": "com.medcryptor.desktop",
             "productName": "MedCryptor"
-        }
-    },
-    "app/package.json": {
-        "name": "medcryptor",
-        "productName": "MedCryptor",
-        "description": "medcryptor",
-        "repository": {
-            "type": "git",
-            "url": "git+https://github.com/PeerioTechnologies/medcryptor-desktop.git"
         },
         "updater": {
             "manifests": [
