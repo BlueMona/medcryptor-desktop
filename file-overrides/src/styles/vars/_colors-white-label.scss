@@ -4,6 +4,7 @@ $black-03: rgba(0, 0, 0, .05);
 // REPLACE FOR WHITE LABELS
 $peerio-blue: $color-brand-2;
 $peerio-purple: #FFB300;
+$mc-orange: #FFB300;
 
 //// BACKGROUNDS
 $background-selected: rgba($color-ui-2, .15);
@@ -12,9 +13,9 @@ $background-hover-default: $black-06;
 $hover-bg: rgba($color-ui-2, .15);
 $background-list: $black-03;
 $badge-bg-color: $color-confirmation;
-$background-highlighted: $peerio-purple;
+$background-highlighted: $mc-orange;
 $background-disabled: $black-12;
-$background-chat: rgba($peerio-purple, 0.1);
+$background-chat: rgba($mc-orange, 0.1);
 $start-screen-bg: $color-brand-3;
 $snackbar-background: $black;
 $look-at-me: $black;
@@ -30,6 +31,10 @@ $text-header: $black;
 $text-unread-color: $white;
 $text-header: $black;
 $text-chatlist-color: $black;
+
+// Icons
+$customicon-pin-on: $mc-orange;
+$customicon-pin-chatlist: $black;
 
 //// DIVIDERS
 $divider-dark: $black-06;
